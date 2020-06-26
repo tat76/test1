@@ -1,0 +1,45 @@
+package com.amazing.shoppingcart;
+import java.util.Scanner; // import the Scanner class 
+
+
+
+public class firstprogram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int kk =123;
+		//int input = 0;
+		//int output=0;
+		Scanner myObj = new Scanner(System.in);
+
+	    System.out.println("Enter begin and end:");
+
+	    // String input
+	    int begin = myObj.nextInt();
+	    int end = myObj.nextInt();
+
+		//System.out.println(begin);
+		//System.out.println(end);
+
+
+	    // Numerical input
+	    //int age = myObj.nextInt();
+		//System.out.println("input is");
+
+		for (int i = begin+1; i < end; i++) {
+			//System.out.println("result is");
+
+			System.out.println(i);
+        }
+		int sum =0;
+		int j =begin+1;
+		while(j < end) {
+			//System.out.println("result is");
+			sum+=j;
+			j++;
+			//System.out.println(sum);
+        }
+		System.out.println("sum is "+ sum);
+	}
+
+}
