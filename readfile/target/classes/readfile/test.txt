@@ -1,0 +1,25 @@
+equivalent schedule
+result equivalent
+view equivalent
+conflict equivalent
+Schedule is conflict serializable if and only if its dependency graph is acyclic
+steal is hard to make sure atomicity
+no force is hard to make sure durability
+force someone to do something is hard
+only good jobs are good
+work hard is useful
+only yourself
+equivalent schedule
+result equivalent
+view equivalent
+conflict equivalent
+equivalent schedule
+result equivalent
+view equivalent
+conflict equivalent
+steal is hard to make sure atomicity
+no force is hard to make sure durability
+force someone to do something is hard
+steal is hard to make sure atomicity
+no force is hard to make sure durability
+force someone to do something is hard
